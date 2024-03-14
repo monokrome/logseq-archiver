@@ -1,8 +1,4 @@
 import '@logseq/libs'
 
-function execute() {
-
-  logseq.App.showMsg('Hello, world.');
-}
-
+function execute() {}
 logseq.ready(execute).catch(console.error);

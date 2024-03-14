@@ -1,12 +1,12 @@
 {
-  "name": "logseq-plugin-hello-world",
+  "name": "logseq-plugin-archiver",
   "version": "0.0.1",
   "author": "Bailey \"monokrome\" Stoner",
   "main": "dist/index.html",
   "module": "dist/index.js",
   "types": "dist/types.d.ts",
   "source": "src/index.ts",
-  "description": "A hello world style plugin for parcel and logseq",
+  "description": "A plugin for archiving content referenced in logseq documents.",
   "license": "MIT",
   "targets": {
     "main": false,
@@ -28,7 +28,6 @@
     "typescript": "^5.4.2"
   },
   "logseq": {
-    "title": "logseq-plugin-hello-world",
-    "id": "_rm9kd7amg"
+    "title": "Archiver"
   }
 }
